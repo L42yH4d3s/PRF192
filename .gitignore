@@ -1,0 +1,15 @@
+# --- Loại bỏ file nén ---
+*.zip
+*.rar
+*.7z
+
+# --- Loại bỏ thư mục rác cụ thể ---
+04_01_2026___09d57c930886212dbcabbec5a062897c/
+
+# --- Loại bỏ file chạy (.exe) ---
+# Vì file .exe được tạo ra từ code, mỗi máy chạy một kiểu, không nên đưa lên Git
+*.exe
+
+# --- Loại bỏ các file rác hệ thống ---
+.DS_Store
+Thumbs.db
