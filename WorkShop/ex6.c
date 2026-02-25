@@ -4,7 +4,6 @@ int main () {
 	float chuyenCan, giuaKy, cuoiKy;
 	float tongKet;
 	char diemChu;
-	
 	printf("Nhap diem chuyen can, giua ky, cuoi ky:");
 	int kq = scanf("%f %f %f",&chuyenCan, &giuaKy, &cuoiKy);
 	printf("kq nhap: %d",kq);
@@ -13,7 +12,6 @@ int main () {
 		printf("\nNhap sai diem, diem >=0!");
 		return 0;
 	}
-	
 	tongKet = (chuyenCan * 0.1) + (giuaKy * 0.3) + (cuoiKy * 0.6);
 	
 	if(tongKet >= 8.5) {
